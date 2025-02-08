@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Craft a tweet about Chainbase, $C token, zircons, AI, or anything exciting tied to Chainbase—make it unique, engaging, and human-like with a creative emoji and non-repetitive thread while keeping it under 250 characters and using these hashtags: $C #ChainbaseCOMPETITION #AI #AIAgent @ChainbaseHQ. and avoid using () in the sentence [ keep it all in one sentence ]";
+    "Craft a high-energy tweet featuring Chainbase and Berachain with $C & $BERA placed randomly, highlighting anything exciting related to them—like zircons, AI, and more. Keep it unique, human-like, and non-repetitive with a hype-filled opening, a distinct emoji thread, and under 255 characters. Include #ChainbaseCOMPETITION #AI #AIAgent $C @ChainbaseHQ @berachain in random placements while avoiding parentheses.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
